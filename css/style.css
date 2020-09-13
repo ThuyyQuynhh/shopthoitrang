@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------MENU-----------------------*/
+a{
+    text-decoration: none;
+    color:#696969 ;
+}
+/*chuyen mau khi hover*/
+/*
+-link: trang thai ban dau chua click vao lan nao
+-hover: khi mouse chuot len link
+-visited: link da tung click vao
+-active: luc click chuot vao the a
+*/
+a:hover{
+    color: #adad90;
+}
+/*margin: canh le cho thanh phan*/
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/*Menu */
+.menu{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;/*cho menu vao giua trang web*/
+}
+/*padding them vao khoang khong cho thanh phan*/
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu img{
+    margin:0px 15px -20px ;
+}
+.menu img:hover
+{
+    opacity: 0;/*di chuot vao se bien mat*/
+}
+/*------------------SLICE----------------------*/
+.slice{
+    margin-top: 30px;
+    position: relative;
+}
+.slice .left
+{
+    width: 400px;
+    position: absolute;
+    left: 75px;
+    top: 120px;
+}
+.slice .left h2{
+    font-size: 80px;
+    color: #464444;
+}
+p{
+    font-size: 18px;
+}
+.left p{
+    margin-top: 20px;
+}
+.btn{
+    padding: 15px 55px;
+    background-color: #758dba;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.slice .right{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.hidden{
+    background-color:rgba(0, 0, 0, 0) ;
+    margin-right: ;
+
+}
